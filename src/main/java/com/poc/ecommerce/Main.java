@@ -3,6 +3,8 @@ package com.poc.ecommerce;
 import java.util.List;
 import java.util.Set;
 
+import lombok.extern.slf4j.Slf4j;
+
 import com.poc.ecommerce.cart.model.Campaign;
 import com.poc.ecommerce.cart.model.Cart;
 import com.poc.ecommerce.cart.model.Category;
@@ -14,7 +16,6 @@ import com.poc.ecommerce.cart.service.category.CategoryServiceImpl;
 import com.poc.ecommerce.cart.service.product.ProductService;
 import com.poc.ecommerce.cart.service.product.ProductServiceImpl;
 import com.poc.ecommerce.cart.util.CartUtil;
-import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @SuppressWarnings({
